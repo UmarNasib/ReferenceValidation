@@ -1,0 +1,395 @@
+Artificial Neural Network Systems
+Roza Dastres1andMohsen Soori 2*
+1Department of Computer Engineering, 
+Cyprus International University, North Cyprus, Turkey 
+Email : roza.dastres@yahoo.com
+2Department of Mechanical Engineering, 
+Eastern Mediterranean University, Famagusta, North Cyprus, Via Mersin 10, Turkey
+*Corresponding author’s Email : mohsen.soori@gmail.c om, mohsen.soo ri@emu.edu.tr
+ABSTRACT
+Artificial Neural Networks is a calculation method that builds several processing units based on 
+interconnected connections. The network consists of  an arbitrary number of cells or nodes or units 
+or neurons that connect the input set to the output. It is a part of a computer system that mimics how 
+the human brain analyzes and processes data. Self-d riving vehicles, character recognition, image 
+compression, stock market prediction, risk analys is systems, drone control, welding quality analysis, 
+computer quality analysis, emergency room testing,  oil and gas exploration and a variety of other 
+applications all use artificial neural networks. Predicting consumer behavior, creating and 
+understanding more sophisticated buyer segments, marketing automation, content creation and 
+sales forecasting are some applications of the ANN systems in the marketing. In this paper, a review 
+in recent development and applications of the Artificial Neural Networks is presented in order to move 
+forward the research filed by reviewing and analyzi ng recent achievements in the published papers. 
+Thus, the developed ANN systems can be presente d and new methodologies and applications of the 
+ANN systems can be introduced. 
+Keywords: Artificial Neural Networks, Artificial Intelligence
+Mathematics Subject Classification: 68T01, 68T05
+Journal of Economic Literatu re (JEL) Classification : C7
+1. INTRODUCTION
+Artificial Neural Networks (ANNs), or more simply ne ural networks, are new systems and computational 
+methods for machine learning, knowledge demonstr ation, and finally the application of knowledge 
+gained to maximize the output responses of comp lex systems (Chen et al. 2019). An Artificial Neural 
+Network (ANN) is a data processing model based on the way biological  nervous systems, such as the 
+brain, process data. They're focused on the neuronal  structure of the mamalian cerebral cortex, but at 
+a much smaller scale. Many artificial intelligence ex perts believe that artificial neural networks are the International Journal of Imaging and Robotics, 
+[Formerly known as the “International Journal of Imaging” (ISSN 0974-0627)] Volume 21; Issue No. 2; Year 2021; Int. J. Imag. Robot. ISSN 2231–525X; Copyright © 2021 [International Journal of Imaging and Robotics]
+ISSN 2231–525X 
+www.ceser.in/ceserp www.ceserp.com/cp-jou
+rbest and perhaps the only hope for designing an intelligent machine.  The branches and sections of the 
+computational methods as well as Artificial Neural  Networks in the chart is shown in the figure 1.
+Figure 1. The branches and sections of the computational methods.
+Artificial neural networks are designed in the same way as the human brain, with neuron nodes 
+interconnected in a web-like fashio n. Neurons are billions of cells that make up the human brain. Each 
+neuron is made up of a cell body that processes inf ormation by bringing it to and from the brain (inputs 
+and outputs) (Van Gerven and Bohte 2017). The main idea  of such networks is (to some extent) inspired 
+by the way the biological neural system works, to process data, and information in order to learn and 
+create knowledge. The key element of this idea  is to create new structures for the information
+processing system. The Artificial neural network arc hitecture is shown in the figure 2 (Bre, Gimenez, 
+and Fachinotti 2018).
+Figure 2. Artificial neural network architecture (Bre, Gimenez, and Fachinotti 2018).
+ International Journal of Imaging and Robotics (ISSN 2231–525X )
+14The system is made up of a large number of highly  interconnected processing elements called neurons 
+that work together to solve a proble m and transmit information through synapses (electromagnetic 
+connections). The neurons are inte rconnected closely and organized into layers. The input layer 
+receives the data, while the output layer generates the final result. Between the two, one or more secret 
+layers are typically sandwiched. This arrangement makes predicting or knowing the exact flow of data 
+difficult.
+Each connection has a connection weight, and each  neuron has a threshold value and an activation 
+function (Balakrishnan et al. 2019). It is calculated if  each input has a positive  or negative weight based 
+on the sign of the input's weight. The weight affects the signal intensity at a connection (Liu et al. 2018).
+Neurons which have a threshold above which a signal  is only transmitted if the aggregate signal 
+exceeds it. The Activation Value is the weighted sum of the summing unit, and the output is generated 
+based on the signal from this acti vation value. The relation between  weight of each element and input 
+and output of the ANN system is shown in the figure 3.
+Figure 3. Weight of each element and input and output of the ANN system.
+In these networks, if one cell is damaged, other cell s can make up for its absence and contribute to its 
+regeneration. These networks are capable of learning. Basica lly, the ability to lear n is the most important 
+feature of an intelligent system. A learning system  is more flexible and easier to program, so it can 
+better respond to new problems and eq uations. Artificial neural networks, like humans, learn by using 
+the different examples, and a neural network is set up  to perform specific tasks, such as identifying 
+patterns and categorizing informati on, during a learning process. For example, by injecting tactile nerve 
+cells, the cells learn not to go to the hot body, and wi th this algorithm, the sy stem learns to correct its 
+error. 
+Artificial neural networks are increasingly used in th e control or modeling of systems that have unknown 
+or very complex internal structures. For example, a ne ural network can be used to control the input of 
+an engine, in which case the neural network itself  will learn the control function. Learning in these 
+systems is adaptive, that is , using parables, the weight of the syna pses changes in such a way that the 
+system produces the correct response if new inp uts are given (Wu and Feng 2018). A neural network 
+is given a set of inputs and their c orresponding outputs when it is being trained (using one of the training 
+methods).
+ International Journal of Imaging and Robotics (ISSN 2231–525X )
+15To analyze and modify the machining operations in virtual environments, virt ual machining systems and 
+applications are presented by Soori et al. (Soori , Arezoo, and Habibi 2017, 2014, 2013; Soori and 
+Arezoo 2021; Soori, Arezoo, and Habibi 2016). Applic ation of the Secure Socket Layer in the Network 
+and Web Security is investigated  by Dastres and Soori (Dastres and Soori 2020b) to increase the 
+security measures in the web of data. The impact of meltdown hole on various processors and operating 
+systems are studied by Dastres and Soori (Dastres and Soori 2020a) in order to increase security of 
+CPU manufacture by preventing the capturing data on computer or smartphones by attackers. . A 
+review in recent development of network threat an d security measures is presented by Dastres and 
+Soori (Dastres and Soori 2021b) to classify the presented rese arch works and suggest some future 
+research trends. Advanced image processing syst ems is reviewed by Dastres (Dastres and Soori 
+2021a) and Soori to introduce new techni ques in the image processing systems.
+There are two Artificial Neural Network topologies as FeedForward and Feedback. In the feed forward 
+systems, there are no feedback loops, because a un it sends information to another unit from which it 
+receives none. Inputs and outputs are fixed. Each unit receives input information from its units on the 
+left, and the inputs are multiplied by the weight of ea ch connections. So, the output results related to 
+the weight of each connections can be obtained. Pa ttern generation, identification, and classification 
+are some application of the method. The system is  applied to the network applications when already 
+know what outcome of the network is required to be achieved (Al-Zewairi, Almajali, and Awajan 2017).
+Many commercial applications, such as computer vision, are built on this foundation. The architecture 
+of FeedForward Neural Network topologies systems are shown in the figure 4 (Mitra and Paul 2017).
+Figure 4. The architecture of FeedForward Neural Network topologies systems (Mitra and Paul 2017).
+In the FeedBack ANN systems, content addressabl e memories are used. Learning neural networks 
+using a feedback process is by comparing the output of a network with the ou tput that is desired and 
+expected. The difference between thes e two outputs is used to change and modify the weights of the 
+connections between the network units. The architec ture of FeedBack ANN systems are shown in the 
+figure 5 (Mitra and Paul 2017).
+ International Journal of Imaging and Robotics (ISSN 2231–525X)
+16Figure 5. The architecture of FeedBack ANN systems (Mitra and Paul 2017).
+2. ADVANTAGES AND DISADVANTAGES OF THE ANN SYSTEMS
+Adaptive learning is the most im portant advantages of the ANNS systems. Ability to learn how to 
+perform tasks based on information given for practi ce and introductory experiences (Rabault et al. 
+2019). For example, the system can learn the recognition of the letters T and H by using the adaptability 
+and pattern structure. The process is sh own in the figure 6 (Qasim 2013).
+Figure 6. The recognition of the letters T and H by using the adaptability in the ANN systems (Qasim 
+2013).
+The main advantage of using a neural network in any of  the above issues is the extraordinary ability of 
+the neural network in learning as  well as the stability of the neural network in the face of minor 
+disturbances (Chen et al. 2019). F or example, if we use normal method s to detect a human handwriting, 
+these methods may be misdiagnosed  by a slight vibration of the hand, while a properly trained neural 
+network can respond even in the event of such a disturbance. It will come true. An ANN can organize 
+or present itself for the information it gains during the learning period. The learning abilities of the ANN 
+systems is shown in the figure 7 (Qasim 2013).
+ International Journal of Imaging and Robotics (ISSN 2231–525X )
+17Figure 7. The learning abilities of the ANN systems (Qasim 2013).
+Artificial neural network calculations can be applied in parallel, and special hardware in order to 
+provide the Real time performance applications. 
+Tolerance of error without interruption when encoding information: A partial failure of a network leads 
+to a corresponding degradation of its performanc e, although a number of network capabilities may 
+remain even with great damage. Due to the high speed of neural networks in data processing and 
+analysis, the time required to discover the o ptimal structure is reduced (Wu and Feng 2018).
+Despite the advantages that neural networks ha ve over conventional systems, they also have 
+disadvantages that researchers in this field are tryi ng to minimize, including: 1. there are no specific 
+rules or instructions for designing a network for an optional application. 2. In the case of modeling problems, the physics of the problem alone cannot be understood using neural networks. In other 
+words, linking parameters or network structure to pro cess parameters is usually impossible. 3. The 
+accuracy of the results depends a lot on the size of the training set.  4. Network training may be difficult 
+or even impossible. 5. It is not easy to predict the future performance of the network (generalization)
+(Walczak 2019).
+3. DEEP LEARNING
+ANN systems should be more complex in order to  represent more complex features and "read" 
+increasingly complex models for prediction and clas sification of data base d on thousands or even 
+millions of features. Deep learning is a machine learning subfield that focuses on learning successive 
+"layers" of increasingly meaningful representations whi le learning representations from data (Grekousis 
+2019). It is concerned with artificial neural networ ks (ANNs), which are algorithms based on the 
+structure and function of the brain. Deep learning allo ws computational models with multiple processing 
+layers to learn multiple levels of abstraction f or data representations. They are neural networks that 
+have more than three layers of neurons (including the input and output layers). These layered 
+representations are learned using models known as "neural networks," which are organized into literal 
+layers that are placed one on top of the other (S chmidhuber 2015). Simply increasing the number of 
+hidden layers and/or the number of neurons per hi dden layer accomplishes this. More layers and 
+neurons can represent increasingly complex models , but they also require more time and power to
+compute. The architecture of Deep learning technologies is shown in the figure 8 (Santos et al. 2021).
+ International Journal of Imaging and Robotics (ISSN 2231–525X )
+18Figure 8. The architecture of Deep learning te chnologies (Santos et al. 2021).
+Deep learning technologies and their possible advantage s/benefits are various. Using self-driving cars 
+as an example, the “need to train a machine to take  over key parts (or all) of driving is addressed. 
+4. APPLICATIONS OF THE ANN SYSTEMS
+Today, neural networks are used in a variety of appl ications, such as pattern recognition issues, which 
+include issues such as line recognition, speech re cognition, image processing, and the like, as well as 
+categorization issues  such as text or image cl assification (Li, Zhang, and Liu 2017). Other applications 
+of neural networks includ e risk analysis systems, drone contro l, welding quality analysis, computer 
+quality analysis, emergency room testing, oil and gas exploration, truck braking detection systems, loan 
+risk estimation, spectral detect ion, drug detection. Industrial control processes, error management, 
+voice recognition, hepatitis detection, remote inform ation retrieval, submarine mine detection, 3D object 
+and handwriting and face detection, etc. Calculate a known function, approximation of an unknown 
+function, Pattern identification, si gnal processing are some applicatio ns of the ANNs (Li, Zhang, and Liu 
+2017). Modeling of Wear Rate and Friction Coefficien t by using the ANNs in reinforced Magnesium 
+metal matrix composite is presen ted by Kavimani and Prakash (Kavimani and Prakash 2017) to
+increase the accuracy in prediction of  specific wear rate value based on  the variation of input parameter.
+Prediction of surface roughness in  the end milling machining using Artificial Neural Network is presented 
+by Zain et al. (Zain, Haron, and Sharif 2010) to obtain the best surface roughness value is a high speed 
+with a low feed rate and radial rake angle in milling  operations. Predicting performance of Wire Electrical 
+Discharge Machining of Inconel 718 Alloy by using the advanced ANN system is presented by Lalwani 
+et al. (Lalwani et al. 2020) to increase quality of ma chined parts. The application of the ANN systems 
+in the signal processing systems is shown in the figure 9 (Cichocki, Unbehauen, and Swiniarski 1993).
+ International Journal of Imaging and Robotics (ISSN 2231–525X )
+19Figure 9. The application of the ANN systems in the signal processing systems (Cichocki, 
+Unbehauen, and Swiniarski 1993).
+Applications of the developed ANN systems in the  wind energy monument systems is presented by 
+Marugán et al. (Marugán et al. 2018) to increase effici ency in energy production systems. Prediction of 
+wind speed and wind direction using artificial neural network is investigated by Khosravi et al. (Khosravi 
+et al. 2018) to increase efficiency in the wind turbine systems.  Modeling of solar energy systems using 
+artificial neural network is reviewed  by Elsheikh et al. (Elsheikh et al. 2019) to predict and optimize the 
+performance of different solar energy devices. 
+Artificial neural networks applicati ons in the drinking water sector is investigated by O'Reilly et al. 
+(O'Reilly, Bezuidenhout, and Bezuidenhout 2018) in or der to develop the water purification facilities in 
+South Africa.
+In the Pattern recognition system, the ANN can be applied to the face recognition, fingerprint, voice and 
+speech recognition and handwriting (Melin and Sánc hez 2018). For example, th is mechanism is used 
+in banks to compare the signature of the client to receive money from an account and the signature 
+recorded in the account file. This is one of the firs t ubiquitous applications of neural network chips. 
+Noise in telecommunication lines can be detected and reduced in order to increase the quality of 
+commination systems (Kashi et al. 2017). Application s of the Neural Networks in optical communication 
+systems is investigated by Eriksson et al. (Eriksso n, Bülow, and Leven 2017) in order to increase the 
+quality of the communication Systems.
+Business applications  is another field of ANN systems. Market ing any decisions that are not easy to 
+make in the business world, such as decisions that requ ire extensive information in the target area
+(Ćetković et al. 2018). For example, in trying to predict stock fluctuations from previous information on 
+the stock market, networks are optimally used (Qiu and Song 2016). Predicting consumer behavior,
+creating and understanding more sophisticated buyer segments, marketing automation, content 
+creation and sales forecasting are some application s of the ANN systems in the marketing (Zakaryazad 
+and Duman 2016). The area of predictive analyt ics is where artificial neural networks are most 
+commonly used. In this case, neural networks can aid marketers in making predictions about a 
+ International Journal of Imaging and Robotics (ISSN 2231–525X )
+20campaign's outcome by identifying patterns fr om previous campaigns (Chattopadhyay et al. 2012; 
+Sharma and Chopra 2013).
+ANNs are also being used to monitor credit card tran sactions in order to detect possible fraud. In the 
+marketing application, the ANN Networks are used  to sell more and more selectively in Internet 
+advertising (Li et al. 2018). Artificial Neural Netw orks architectures for s tock price prediction is 
+presented by Di Persio and Honchar (Di Persio and Honchar 2016) in order to predict financial time 
+series movements and to develop the marketing sy stems. Data envelopment analysis and artificial 
+neural network to online prediction performance of companies in stock exchange system is investigated by Rezaee et al. (Rezaee, Jozmaleki, and Valipour 2018) to increase finical performances of  stock 
+exchange companies.
+The advanced ANN systems can compress visual in formation to reduce the amount of information (Ma 
+et al. 2019). The ANN systems can be applied to the monitoring systems in order to increase quality as 
+well as safety of different processes (Menke, Bornhors t, and Braun 2019). For example, by examining 
+the sound levels transmi tted from spacecraft, the dangers faci ng the spacecraft are predicted. This 
+method has also been tested on rails to check th e sounds produced by diesel engines. Since they can 
+predict how ecosystems respond to changes in environmental variables, artificial neural networks (ANNs) are useful tools for modeling complex ecosystems (Coutinho et al. 2019).
+In the medicine and healthcare appl ications, the ANN can be used in  analyzing and diagnosing the 
+symptoms of a pacemaker (electrocardiograph), as well as a trained network that can diagnose the 
+disease and even prescribe medicati on (Jain et al. 2021). To predict the Tumor Category in the health 
+care system, application of the ANN systems is de veloped by Nasser and Ab u-Naser (Nasser and Abu-
+Naser 2019). Applications of artifici al neural networks in health care organizational decision-making is 
+reviewed by Shahid et al. (Shahid, Rappon, and Berta  2019) to develop the health care systems in the 
+hospitals. Medical image processing by using the ANN systems is presented by Jiang et al. (Jiang, 
+Trundle, and Ren 2010) to resolve problems relevant to medical imaging. Artificial Neural Networks in 
+Image Processing for Early Detection of Breast Cancer is presented by Mehdy et al. (Mehdy et al. 2017)
+to increase quality of the health care systems. Park inson's Disease Prediction Using Artificial Neural 
+Network is investigated by Sadek et al. (Sadek et al. 2019) to increase the accuracy of prediction for 
+the Parkinson's Disease.
+5. CONCLUSION
+An artificial neural network (ANN) is made up of artificial neurons, which are a series of linked units or 
+nodes that resemble the neur ons in a biological brain. Each link, similar to synapses in a biological 
+brain, has the ability to send a signal to other ne urons. Adaptive learning is the most important 
+advantages of the ANNS systems. The learning r ate determines how large the model's corrective steps 
+are in adjusting for errors in each observation. A high  learning rate reduces training time but reduces 
+overall accuracy, while a low learning rate take s longer but has the potential for greater accuracy.
+Although ANNs can handle most tasks if they are gi ven the opportunity to prepare for them, the biggest  International Journal of Imaging and Robotics (ISSN 2231–525X )
+21challenge is the time it takes to train them and the computing power needed for a complex task.
+Performance of an ANN models in the complex prob lems strongly depends on the network architecture 
+in order to achieve the best solutions for the simulated challenges.
+When dealing with large datasets, neural networks  are extremely useful. ANNs can run much faster 
+than their linear counterparts when dealing with massiv e, continuous streams of data, such as speech 
+recognition or computer sensor data. This means that  the neural network has enough data to generate 
+mathematical models of the data that has been inpu tted; this is why, with the amount of new data 
+coming out every year, they are becoming more an d more popular.
+Self-driving vehicles, character recognition, image compression, stock market predi ction, risk analysis 
+systems, drone control, welding quality analysis, computer quality analysis, emergency room testing, oil and gas exploration and a variety of other applicat ions all use artificial neural networks. ANNs have 
+been used by large financial institutions to boost effici ency in areas such as bond ranking, credit scoring, 
+target marketing, and loan application evaluation. T he advanced ANN systems can be applied for 
+modeling of complex engineering and physics problems in order to obtain the best solution.
+Even though there are some approache s in making machines think an d behave like humans, there's 
+still a lot to discover. However, the work of researcher s may be able to help neural networks eventually 
+break the generational loop that has seen them in and out of favor for the past seven decades.
+6. REFERENCES
+Al-Zewairi, Malek, Sufyan Almajali, and Arafat Awaja n. 2017. Experimental evaluation of a multi-layer 
+feed-forward artificial neural network classifier for network intrusion detection system. Paper 
+presented at the 2017 International Conference on New Trends in Computing Sciences 
+(ICTCS).
+Balakrishnan, Harikrishnan Nellippallil, Aditi Ka thpalia, Snehanshu Saha, and Nithin Nagaraj. 2019. 
+"ChaosNet: A chaos based artificial neural netw ork architecture for classi fication." Review of .
+Chaos: An Interdisci plinary Journal of Nonlinear Science 29 (11) :113125.
+Bre, Facundo, Juan M Gimenez, and Víctor D Fachinot ti. 2018. "Prediction of wind pressure co efficients 
+on building surfaces using arti ficial neural networks." Review of . Energy and Buildings
+158:1429-41.
+Ćetković, Jasmina, Slobodan Lakić, Marijana Laz arevska, Miloš Žarković, Saša Vujošević, Jelena 
+Cvijović, and Mladen Gogić. 2018. "Assessment of  the real estate market value in the european 
+market by artificial neural networks application." Review of . Complexity 2018 .
+Chattopadhyay, Manojit, Pranab K Dan, Sitanath Majumdar, and Partha Sarathi Chakraborty. 2012. 
+"Application of artificial neural network in ma rket segmentation: A review on recent trends." 
+Review of . arXiv preprint arXiv:1202.2445 .
+Chen, Mingzhe, Ursula Challita, Walid Saad, Changc huan Yin, and Mérouane Debbah. 2019. "Artificial 
+neural networks-based machine learning f or wireless networks: A tutorial." Review of . IEEE 
+Communications Surveys & Tutorials 21 (4) :3039-71.
+Cichocki, Andrzej, Rolf Unbehauen , and Roman W Swiniarski. 1993. Neural networks for optimization 
+and signal processing . Vol. 253: wiley New York.
+Coutinho, FH, CC Thompson, AS Cabral, R Paranhos , BE Dutilh, and FL Thompson. 2019. "Modelling 
+the influence of environmental parameters over marine planktonic microbial communities using 
+artificial neural networks." Review of . Science of the Total Environment 677:205-14. International Journal of Imaging and Robotics (ISSN 2231–525X )
+22Dastres, Roza, and Mohsen Soori. 2020a. "Impac t of Meltdown and Spectre on CPU Manufacture 
+Security Issues." Review of . International Journal of Engineering and Future Technology 18 
+(2):62-9.
+Dastres, Roza, and Mohsen Soori. 2020b. "Sec ure Socket Layer in the Network and Web Security." 
+Review of . International Journal of Computer and Information Engineering 14 (10) :330-3.
+Dastres, Roza, and Mohsen Soori. 2021a. "Adv anced Image Processing Systems." Review of .
+International Journal of Imaging and Robotics 21 (1) .
+Dastres, Roza, and Mohsen Soori. 2021b. "A Review  in Recent Development of Network Threats and 
+Security Measures." Review of . International Journal of Computer and Information Engineering
+15 (1) :75-81.
+Di Persio, Luca, and Oleksandr Ho nchar. 2016. "Artificial neural ne tworks architectures for stock price 
+prediction: Comparisons and applications." Review of . International journa l of circuits, systems 
+and signal processing 10 (2016) :403-13.
+Elsheikh, Ammar H, Swellam W Sharshir, Mohamed Abd Elaziz, AE Kabeel, Wang Guilan, and Zhang 
+Haiou. 2019. "Modeling of solar energy systems using artificial neural network: A 
+comprehensive review." Review of . Solar Energy 180:622-39.
+Eriksson, Tobias A, Henning Bülow, and Andreas Leve n. 2017. "Applying neural networks in optical 
+communication systems: possible pitfalls." Review of . IEEE Photonics Technology Letters 29 
+(23):2091-4.
+Grekousis, George. 2019 . "Artificial neural networks and deep learning in urban geography: A 
+systematic review and m eta-analysis." Review of . Computers, Environment and Urban 
+Systems 74:244-56.
+Jain, Mahima, Apoorva Goel, Shuchi Sinha, and Sa njay Dhir. 2021. "Employability implications of 
+artificial intelligence in healthcare ecosys tem: responding with readiness." Review of . foresight .
+Jiang, Jianmin, P Trundle, and Jinchang Ren. 2010. "Medical im age analysis with artificial neural 
+networks." Review of . Computerized Medical Imaging and Graphics 34 (8) :617-31.
+Kashi, AS, Q Zhuge, JC Cartledge , A Borowiec, D Charlton, C Laperl e, and M O'Sullivan. 2017. Fiber 
+nonlinear noise-to-signal ratio monitoring using artificial neural networks. Paper presented at 
+the 2017 European Conference on  Optical Communication (ECOC).
+Kavimani, V, and K Soorya Prakash. 2017. "Tribolo gical behaviour predictions of r-GO reinforced Mg 
+composite using ANN coupled Taguchi approach." Review of . Journal of Physics and 
+Chemistry of Solids 110:409-19.
+Khosravi, A, RNN Koury, L Machado, and JJG Pabo n. 2018. "Prediction of  wind speed and wind 
+direction using artificial neural network, suppor t vector regression and adaptive neuro-fuzzy 
+inference system." Review of . Sustainable Energy Technologies and Assessments 25:146-60.
+Lalwani, Vishal, Priyaranjan Sharma, Catalin Iu lian Pruncu, and Deepak Rajendra Unune. 2020. 
+"Response Surface Methodology and Artificial  Neural Network-Based Models for Predicting 
+Performance of Wire Electrical Discharge Machining of Inconel 718 Alloy." Review of . Journal 
+of Manufacturing and Materials Processing 4 (2):44.
+Li, Hao, Zhien Zhang, and Zhijian Liu. 2017. "Applicat ion of artificial neural ne tworks for catalysis: a 
+review." Review of . Catalysts 7 (10) :306.
+Li, Yawen, Weifeng Jiang, Liu Yang, and Tian Wu. 20 18. "On neural networks and learning systems for 
+business computing." Review of . Neurocomputing 275:1150-9.
+Liu, Jinjin, Yongchun Chen, Li Lan, Boli Lin, Weijian Chen, Meihao Wang, Rui Li, Yunjun Yang, Bing 
+Zhao, and Zilong Hu. 2018. "Prediction of ru pture risk in anterior communicating artery 
+aneurysms with a feed-forward artificial neural network." Review of . European radiology 28
+(8):3268-75.
+Ma, Siwei, Xinfeng Zhang, Chuanmin Jia, Zhenghui  Zhao, Shiqi Wang, and Shanshe Wang. 2019. 
+"Image and video compression with ne ural networks: A review." Review of . IEEE Transactions 
+on Circuits and Systems for Video Technology 30 (6) :1683-98. International Journal of Imaging and Robotics (ISSN 2231–525X )
+23Marugán, Alberto Pliego, Fausto Pedro García Márquez, Jesus María Pinar Perez, and Diego Ruiz-
+Hernández. 2018. "A survey of artificial neur al network in wind energy systems." Review of .
+Applied energy 228:1822-36.
+Mehdy, MM, PY Ng, EF Shair, NI Saleh, and Chandima Gomes. 2017. "Artificial neural networks in 
+image processing for early detection of breast cancer." Review of . Computational and 
+mathematical methods in medicine 2017 .
+Melin, Patricia, and Daniela Sánchez. 2018. "Multi-o bjective optimization for modular granular neural 
+networks applied to pattern recognition." Review of . Information sciences 460:594-610.
+Menke, Jan-Hendrik, Nils Bornhorst, and Martin Braun. 2019. "Distribution system monitoring for smart 
+power grids with distributed generation using artificial neural networks." Review of . International 
+Journal of Electrical Po wer & Energy Systems 113:472-80.
+Mitra, Dipankar, and Ranjit Kumar Paul. 2017. "Hyb rid time-series models for forecasting agricultural 
+commodity prices." Review of . Model Assisted Statistics and Applications 12 (3) :255-64.
+Nasser, Ibrahim M, and Samy S Abu-Naser. 2019. "Predi cting Tumor Category Using Artificial Neural 
+Networks." Review of .
+O'Reilly, G, CC Bezuidenhout, and JJ Bezuidenhout. 2018. "Artificial neural networks: applications in 
+the drinking water sector." Review of . Water Supply 18 (6) :1869-87.
+Qasim, Hussein Salim. 2013. "Letter recognit ion data using neural network." Review of . International 
+Journal of Scientific & Engineering Research 4 (5).
+Qiu, Mingyue, and Yu Song. 2016. "Predicting the direction of stock market index movement using an 
+optimized artificial neural network model." Review of . PloS one 11 (5) :e0155133.
+Rabault, Jean, Miroslav Kuchta, Atle Jensen, Ulysse  Réglade, and Nicolas Cerardi. 2019. "Artificial 
+neural networks trained through deep reinforcement learning di scover control strategies for 
+active flow control." Review of . Journal of fluid mechanics 865:281-302.
+Rezaee, Mustafa Jahangoshai, Mehrdad Jozmaleki, and Mahsa Valipour. 2018. "Integrating dynamic 
+fuzzy C-means, data envelopment analysis an d artificial neural network to online prediction 
+performance of companies in stock exchange." Review of . Physica A: Statistical Mechanics 
+and its Applications 489:78-93.
+Sadek, Ramzi M, Salah A Mohammed, Abdul Rahman K Abunbehan, Abdul Karim H Abdul Ghattas, 
+Majed R Badawi, Mohamed N Mortaja, Bassem S Abu-Nasser, and Samy S Abu-Naser. 2019. 
+"Parkinson's Disease Prediction Using Artificial Neural Network." Review of .
+Santos, Iria, Luz Castro, Nereida Rodriguez-Fernandez, Alvaro Torrente-Patino, and Adrian Carballal. 
+2021. "Artificial Neural Networks and Deep Learning  in the Visual Arts: A review." Review of .
+Neural Computing and Applications :1-37.
+Schmidhuber, Jürgen. 2015. "Deep learning in neural networks: An overview." Review of . Neural 
+Networks 61:85-117.
+Shahid, Nida, Tim Rappon, and Whitney Berta. 2019. "App lications of artificial neural networks in health 
+care organizational decision-making:  A scoping review." Review of . PloS one 14 (2) :e0212356.
+Sharma, Ayushi, and Akshit Chopra. 2013. "Artificial neural networks : Applications in management." 
+Review of . Journal of Business and Management 12 (5) :32-40.
+Soori, Mohsen, and Behrooz Arez oo. 2021. "Virtual Machining Systems for CNC Milling and Turning 
+Machine Tools: A Review." Review of . International Journal of Engineering and Future 
+Technology 1 (18) :56-104.
+Soori, Mohsen, Behrooz Arezoo, and Mohsen Habibi. 2013. "Dimensional and geometrical errors of 
+three-axis CNC milling machines in a virtual machining system." Review of . Computer-Aided 
+Design 45 (11) :1306-13.
+Soori, Mohsen, Behrooz Arezoo, and Mohsen Habibi. 2014. "Virtual machining considering 
+dimensional, geometrical and tool deflecti on errors in three-axis CNC milling machines." 
+Review of . Journal of Manufacturing Systems 33 (4) :498-507. International Journal of Imaging and Robotics (ISSN 2231–525X )
+24Soori, Mohsen, Behrooz Arezoo, and Mohsen Hab ibi. 2016. "Tool deflection error of three-axis 
+computer numerical control milling machines, moni toring and minimizing by a virtual machining 
+system." Review of . Journal of Manufacturin g Science and Engineering 138 (8) .
+Soori, Mohsen, Behrooz Arezoo, and Mohsen Habibi. 2017. "Accuracy anal ysis of tool deflection error 
+modelling in prediction of milled surfaces by a virtual machining system." Review of .
+International Journal of Computer Applications in Technology 55 (4) :308-21.
+Van Gerven, Marcel, and Sander Bohte. 2017. "Artif icial neural networks as models of neural 
+information processing." Review of . Frontiers in Computational Neuroscience 11:114.
+Walczak, Steven. 2019. "Artificial neural networks." In Advanced Methodologies and Technologies in 
+Artificial Intelligence, Computer Simu lation, and Human-Computer Interaction , 40-53. IGI 
+Global.
+Wu, Yu-chen, and Jun-wen Feng. 2018. "Developme nt and application of artificial neural network." 
+Review of . Wireless Personal Communications 102 (2) :1645-56.
+Zain, Azlan Mohd, Habibollah Haron, and Safian Sharif.  2010. "Prediction of s urface roughness in the 
+end milling machining using Arti ficial Neural Network." Review of . Expert systems with 
+applications 37 (2) :1755-68.
+Zakaryazad, Ashkan, and Ekrem Duman. 2016. "A pr ofit-driven Artificial Neural Network (ANN) with 
+applications to fraud detection and direct marketing." Review of . Neurocomputing 175:121-31. International Journal of Imaging and Robotics (ISSN 2231–525X )
+25
